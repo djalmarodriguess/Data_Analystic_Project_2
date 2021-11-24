@@ -4,14 +4,21 @@
 
 O banco de dados Sakila é um esquema perfeitamente normalizado que modela uma loja de aluguel de DVD 's de filmes, no qual seus schemas apresentam informações como: atores, relação filme-ator e uma mesa de inventário central que conecta filmes, lojas, clientes e aluguéis.
 
+### Download Banco de dados Sakila
+- O mesmo pode ser baixado no link: [Clique aqui](https://dev.mysql.com/doc/index-other.html)
+
+- Vá no quadro **Example Databases**.
+	Escolha o documento de nome `sakila database`
+
+
 A estrutura do banco de dados Sakila contém informações pertinentes, como:
 - Relacionamento muitos para muitos.
 - Múltiplos caminhos entre entidades (por exemplo, filme-estoque-aluguel-pagamento vs filme-estoque-loja-cliente-pagamento) para praticar junções.
 - Nomenclatura consistente de colunas:
-  -  As chaves primárias são chamadas de ```[nome da tabela] _ [id]```
+  -  As chaves primárias são chamadas de `[nome da tabela] _ [id]`
   - As chaves estrangeiras são chamadas como sua chave primária referenciada, se possível. Isso permite o uso da sintaxe JOIN .. USING onde for compatível.
   - As tabelas de relacionamento não têm chaves substitutas, mas usam chaves primárias compostas
-  - Cada tabela tem uma coluna de última atualização ```[last_update]```.
+  - Cada tabela tem uma coluna de última atualização `[last_update]`.
 
 ## Objetivo da Análise
 
@@ -137,3 +144,8 @@ group by s2.first_name ;
 
 ## Modelo de Dados
 #### Abaixo está uma captura de tela do modelo de dados e as conexões das tabelas.
+
+![tabela_conectada](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/main/Sakila_structure.png)
+
+## Painel de gerenciamento de filmes alugados.
+
