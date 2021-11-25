@@ -139,13 +139,12 @@ Informações dos top 20 clientes que mais alugaram filmes.
 
 #### Valor total arrecadado de cada Staff e quantidade de filmes alugados nas suas respectivas lojas.
 ```
-select s2.first_name 'Responsavel da Loja', p.rental_id 'Quant. de Alugueis', sum(p.amount) 'Valor Total'
-from store s
-	join staff s2 
-		on s.store_id = s2.store_id 
-	join payment p 
-		on s2.staff_id = p.staff_id
-group by s2.first_name ;
+select p.staff_id, concat( s.first_name, ' ', s.last_name) 'Responsavel da Loja' , count(p.staff_id) 'Quant. de Alugueis', 
+sum(p.amount) 'Valor Total'
+from payment p 
+	join staff s 
+		on p.staff_id = s.staff_id 
+group by p.staff_id;
 ```
 #### Output
 ![#6](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Loja%20que%20mais%20alugou%20filmes%20e%20o%20faturamento%20de%20cada%20uma.png)
