@@ -156,3 +156,7 @@ group by p.staff_id;
 
 ## Painel de gerenciamento de filmes alugados.
 
+## Clique na imagem para abrir os dados no PowerBI!
+
+<p><a href="https://app.powerbi.com/view?r=eyJrIjoiNzliODRjYzEtNTYzMS00NDMwLTg2NGEtNGEyOTMzNGZjNmY4IiwidCI6IjQzZDMwZGIxLThkNGItNDA5Yi04ZWYzLWVlODRmZDRjZGIzOSJ9"Clique aqui para acessar o relatório" rel="nofollow"><img src="https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/An%C3%A1lise%20Preditiva.png" alt="mkt" style="max-width: 100%;"></a></p>
+
