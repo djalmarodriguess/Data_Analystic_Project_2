@@ -150,7 +150,7 @@ group by p.staff_id;
 ![#6](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Loja%20que%20mais%20alugou%20filmes%20e%20o%20faturamento%20de%20cada%20uma.png)
 
 ## Modelo de Dados
-#### Abaixo está uma captura de tela do modelo de dados e as conexões das tabelas.
+#### Abaixo está uma captura de tela do modelo de dados e o relacionamento das tabelas.
 
 ![tabela_conectada](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/main/Sakila_structure.png)
 
