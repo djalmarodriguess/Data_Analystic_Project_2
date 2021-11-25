@@ -64,6 +64,9 @@ Para saber a quantidade de cada filme sem limitação, basta retirar a linha que
 having count(i.inventory_id) = 8 
 
 #### Output
+![#1.1](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/N%C3%BAmero%20de%20vezes%20que%20cada%20filme%20foi%20alugado.png)
+![#1.2](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/N%C3%BAmero%20de%20vezes%20que%20cada%20filme%20foi%20alugado_2.png)
+![1.3](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/N%C3%BAmero%20de%20vezes%20que%20cada%20filme%20foi%20alugado_3.png)
 
 #### Total de vezes que cada categoria de filme foi alugado.
 ```
@@ -82,6 +85,7 @@ order by count(i.inventory_id) desc;
 Consulta feita pelas categorias dos filmes, obtendo o resultado de vezes que cada tipo de filme foi alugado.
 
 #### Output
+![#2](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Total%20de%20vezes%20que%20cada%20categoria%20de%20filme%20foi%20alugado.png)
 
 #### Top 10 Países que mais tiveram arrecadação com o aluguel de filmes.
 ```
@@ -101,6 +105,7 @@ limit 10;
 
 ```
 #### Output
+![#3](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Top%2010%20Pa%C3%ADses%20que%20mais%20tiveram%20arrecada%C3%A7%C3%A3o%20com%20o%20aluguel%20de%20filmes.png)
 
 #### Valor total arrecadado. 
 ```
@@ -108,6 +113,7 @@ select sum(amount) 'Arrecadação Total' from payment p ;
 ```
 Para comprovação da consulta **"Top 10 Países que mais tiveram arrecadação com o aluguel de filmes."**, decide colocar a query do valor total de arrecadação.
 #### Output
+![#4](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Valor%20total%20arrecadad.png)
 
 #### Top 20 Cliente que mais alugaram DVD's.
 ```
@@ -128,9 +134,10 @@ limit 20;
 ```
 Informações dos top 20 clientes que mais alugaram filmes.
 #### Output
+![#5](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Top%2020%20Cliente%20que%20mais%20alugaram.png)
 
 
-#### Loja que mais alugou filmes e o faturamento de cada uma.
+#### Valor total arrecadado de cada Staff e quantidade de filmes alugados nas suas respectivas lojas.
 ```
 select s2.first_name 'Responsavel da Loja', p.rental_id 'Quant. de Alugueis', sum(p.amount) 'Valor Total'
 from store s
@@ -141,6 +148,7 @@ from store s
 group by s2.first_name ;
 ```
 #### Output
+![#6](https://github.com/djalmarodriguess/Data_Analystic_Project_2/blob/master/Output%20SQL/Loja%20que%20mais%20alugou%20filmes%20e%20o%20faturamento%20de%20cada%20uma.png)
 
 ## Modelo de Dados
 #### Abaixo está uma captura de tela do modelo de dados e as conexões das tabelas.
