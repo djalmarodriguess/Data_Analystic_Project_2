@@ -156,7 +156,7 @@ group by p.staff_id;
 
 ## Painel de gerenciamento de filmes alugados.
 
-Os gráficos apresentados abaixo teve como objetivo mostrar de forma mais clara as informações e valores totais de gastos de cada cliente com o aluguel de DVD 's, valores por categorias de filmes, países que mais arrecadaram, filmes mais alugados e clientes que mais alugaram DVD' s.
+Os gráficos apresentados abaixo tem como objetivo mostrar de forma mais clara as informações e valores totais de gastos de cada cliente com o aluguel de DVD 's, valores por categorias de filmes, países que mais arrecadaram, filmes mais alugados e clientes que mais alugaram DVD' s.
 São dados importantes para as devidas tomadas de ação. Observando esse relatório, a suposta equipe de marketing poderia fazer ofertas para a região e clientes mais engajados com a empresa, poderia retirar os filmes menos alugados, e disponibilizar filmes com as categorias mais procuradas, são as inúmeras estratégias que podem ser implementadas
 
 ## Clique na imagem para abrir os dados no PowerBI!
